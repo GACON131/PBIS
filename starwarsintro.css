@@ -126,7 +126,7 @@ body, html{
 }
 
 .star-wars-intro .main-logo > img {
-  max-width: 300%;
+  max-width: 500%;
 }
 
 @-webkit-keyframes intro {
