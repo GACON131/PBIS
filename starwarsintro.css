@@ -103,7 +103,7 @@ html {
 .star-wars-intro .main-logo {
     position: absolute;
     width: 60%;
-    left: 20%;
+    left: calc((100% - 60%) / 2);
     top: 20vh;
     opacity: 0;
     z-index: 1;
