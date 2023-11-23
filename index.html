@@ -1,43 +1,90 @@
-<head><!-- Place in document head -->
-<link rel="stylesheet" href="starwarsintro.css">
-<link rel="preload" href="soarin.mp3" as="audio">
-</head>
-<!-- Place in Body where you'd like intro to appear -->
-<div class="star-wars-intro">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Soarin' Yo</title>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="starwarsintro.css"
+        />
+        <link
+            rel="preload"
+            href="./soarin.mp3"
+            as="audio"
+        />
+    </head>
+    <body>
+        <div class="star-wars-intro">
+            <!-- Blue Intro Text -->
+            <p class="intro-text">
+                Not long ago, in a school not too far away....
+            </p>
 
-  <!-- Blue Intro Text -->
-  <p class="intro-text">
-    Not long ago, in a school not too far away....
-  </p>
+            <!-- Logo Image or Text goes in here -->
+            <h2 class="main-logo">
+                <img src="img/star-wars-intro.png" />
+            </h2>
 
-  <!-- Logo Image or Text goes in here -->
-  <h2 class="main-logo">
-    <img src="img/star-wars-intro.png">
-  </h2>
+            <!-- All Scrolling Content Goes in here -->
+            <div class="main-content">
+                <div class="title-content">
+                    <p class="content-header">
+                        GA PBS Conference
+                        <br />
+                        <br />
+                        UNIVERSAL DATA SYSTEM
+                    </p>
+                    <br />
 
-  <!-- All Scrolling Content Goes in here -->
-  <div class="main-content">
-
-    <div class="title-content">
-      <p class="content-header">GA PBS Conference
-        <br/>
-         <br/>
-        UNIVERSAL DATA SYSTEM</p>
-      <br>
-
-      <p class="content-body">
-     
-According to The Governor’s Office of Student Achievement, in August 2013 and January 2014, education stakeholders from the public and private sectors met to develop a strategic plan that charts the expansion of PBIS in Georgia. 
-
-Of the five strategic goals, administrators, coaches, and teachers are required to increase awareness and visibility of PBIS while expanding data infrastructure to lead and support PBIS implementation.  The data should be used to support evidence-based behavioral practices for improving school climate.  Each school must find their own way to adhere to state-wide PBIS expectations, and unify the mission and vision of the district with their individual school matrix and discipline flow charts.
-
-Schools are also tasked with creating their own incentive programs to reward students for desired behaviors.  Information obtained from numerical (points) and anecdotal submissions can be used to identify areas of concern, as well as to increase focus on students that are meeting and exceeding expectations.
-
-Validity of the data is dependent upon staff participation, and it is important for schools to develop a universal system that is centralized and easy for staff to use.  Educator-driven data collection also supports PBIS Tier I, Tier II, and Tier III processes when implemented with consistency.
-
-In our presentation, we will discuss how administrators and teachers can utilize the district level G-Suite Applications, via Google Slides, Sites, Forms, and Sheets, to create a universal data system which will evaluate the implementation of PBIS practices and improve the climate and culture of the school.
-      </p>
-        
-    </div>
-  </div>
-</div>
+                    <p class="content-body">
+                        According to The Governor’s Office of Student
+                        Achievement, in August 2013 and January 2014, education
+                        stakeholders from the public and private sectors met to
+                        develop a strategic plan that charts the expansion of
+                        PBIS in Georgia. Of the five strategic goals,
+                        administrators, coaches, and teachers are required to
+                        increase awareness and visibility of PBIS while
+                        expanding data infrastructure to lead and support PBIS
+                        implementation. The data should be used to support
+                        evidence-based behavioral practices for improving school
+                        climate. Each school must find their own way to adhere
+                        to state-wide PBIS expectations, and unify the mission
+                        and vision of the district with their individual school
+                        matrix and discipline flow charts. Schools are also
+                        tasked with creating their own incentive programs to
+                        reward students for desired behaviors. Information
+                        obtained from numerical (points) and anecdotal
+                        submissions can be used to identify areas of concern, as
+                        well as to increase focus on students that are meeting
+                        and exceeding expectations. Validity of the data is
+                        dependent upon staff participation, and it is important
+                        for schools to develop a universal system that is
+                        centralized and easy for staff to use. Educator-driven
+                        data collection also supports PBIS Tier I, Tier II, and
+                        Tier III processes when implemented with consistency. In
+                        our presentation, we will discuss how administrators and
+                        teachers can utilize the district level G-Suite
+                        Applications, via Google Slides, Sites, Forms, and
+                        Sheets, to create a universal data system which will
+                        evaluate the implementation of PBIS practices and
+                        improve the climate and culture of the school.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <audio
+            controls
+            autoplay
+        >
+            <source
+                src="./soarin.mp3"
+                type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+        </audio>
+    </body>
+</html>
