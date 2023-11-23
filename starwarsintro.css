@@ -102,17 +102,9 @@ html {
 
 .star-wars-intro .main-logo {
     position: absolute;
-    width: 2.6em;
-    left: 50%;
+    width: 60%;
+    left: 20%;
     top: 20vh;
-    font-size: 10em;
-    text-align: center;
-    margin-left: -1.3em;
-    line-height: 0.8em;
-    letter-spacing: -0.05em;
-    color: #000;
-    text-shadow: -2px -2px 0 #ebd71c, 2px -2px 0 #ebd71c, -2px 2px 0 #ebd71c,
-        2px 2px 0 #ebd71c;
     opacity: 0;
     z-index: 1;
     -webkit-animation: logo 5s ease-out 2.5s;
