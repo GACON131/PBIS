@@ -99,7 +99,7 @@ body, html{
 
 .star-wars-intro .main-logo {
   position: absolute;
-  width: 2.6em;
+  width: 10em;
   left: 50%;
   top: 20vh;
   font-size: 10em;
@@ -119,7 +119,7 @@ body, html{
 }
 
 .star-wars-intro .main-logo > img {
-  max-width: Auto;
+  max-width: 100%;
 }
 
 @-webkit-keyframes intro {
