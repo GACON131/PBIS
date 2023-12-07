@@ -36,7 +36,7 @@
                     <br />
 
                     <div class="content-body">
-                        <p></p>
+                        <p>
                             According to The Governor’s Office of Student
                             Achievement, in August 2013 and January 2014,
                             education stakeholders from the public and private
@@ -80,9 +80,19 @@
                 </div>
             </div>
         </div>
+        <audio
+            controls
+            id="audioeeyoeeyo"
+        >
+            <source
+                src="./soarin.mp3"
+                type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+        </audio>
         <script>
             var delayInSeconds = 2.5;
-            var audio = new Audio('./soarin.mp3');
+            var audio = document.getElementById('audioeeyoeeyo');
             setTimeout(() => audio.play(), delayInSeconds * 1000);
         </script>
     </body>
